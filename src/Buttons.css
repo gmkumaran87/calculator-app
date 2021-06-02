@@ -1,0 +1,43 @@
+.btns {
+    /*  width: 65px;*/
+    height: 50px;
+    border-radius: 5px;
+    color: hsl(221, 14%, 31%);
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 0px 2px 1px 1px hsl(28, 16%, 65%);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.grey-btn {
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0px 2px 1px 1px hsl(224, 28%, 35%);
+    color: #fff;
+}
+
+.red-btn {
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0px 2px 1px 1px hsl(6, 70%, 34%);
+    color: #fff;
+}
+
+#equals {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#clear {
+    grid-column: 3 / 5;
+}
+
+.btns:active {
+    transform: scale(.9);
+}
+
+.btns:hover {
+    opacity: .8;
+}
